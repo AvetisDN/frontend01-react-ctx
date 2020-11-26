@@ -20,11 +20,7 @@ const ProductList = (props) => {
             <Typography className={classes.title} variant='h4'>
                 Products                
             </Typography>
-            <Cars
-                cars={props.cars}
-                incrementCarPrice={props.incrementCarPrice}
-                decrementCarPrice={props.decrementCarPrice}
-            />
+            <Cars/>
             {/* <Electronics/> */}
             {/* <Clothes/> */}
         </Paper>
